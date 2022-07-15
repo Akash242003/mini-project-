@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1b6272;
+}
+.win{
+    width: 350px;
+    padding: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    text-align: center;
+}
+.win input[type = "text"],.win input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 30px auto;
+    text-align: right;
+    border: 6px double rgb(98, 145, 28);
+    padding: 20px 10px;
+    width: 200px;
+    outline: none;
+    color: aqua;
+    border-radius: 30px;
+    transition: 0.5s;
+    
+    
+}
+.win input[type = "text"],.win input[type = "password"]:focus{
+    border-color: blueviolet;
+    width: 300px;
+}
+.win input[type = "submit"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 4px solid red;
+    padding: 10px 10px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 30px;
+    width: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.win input[type = "submit"]:hover{
+    background: rgb(44, 14, 83);
+}
+.win h1{
+    color: gold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.win input[type = "reset"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 4px solid red;
+    padding: 10px 10px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 30px;
+    width: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.win input[type = "reset"]:hover{
+    background: rgb(0, 221, 255);
+}
